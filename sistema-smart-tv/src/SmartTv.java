@@ -2,19 +2,21 @@ public class SmartTv {
     boolean ligada = false;
     int canal = 1;
     int volume = 25;
-    public void ligar(){
-        ligada = true;    
+
+    public void ligar() {
+        ligada = true;
     }
-    public void desligar (){
-         ligada = false;
+
+    public void desligar() {
+        ligada = false;
     }
-    public void aumentarVolume(){
+    public void aumentarVolume() {
         volume++;
     }
-    public void diminuirVolume(){
+    public void diminuirVolume() {
         volume--;
     }
-    public void mudarCanal(){
+    public void mudarCanal() {
         canal++;
     }
 }
